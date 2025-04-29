@@ -21,8 +21,8 @@ Base de données pour la persistance des utilisateurs, messages et serveurs
 
 Langage : C
 
-Interface graphique : GTK (GTK3/GTK4)
+Interface graphique : GTK4
 
-Base de données : SQLite / MySQL (à préciser selon ton projet)
+Base de données : SQLite / MySQL 
 
 Sockets TCP/IP : pour la communication client-serveur
