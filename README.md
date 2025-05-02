@@ -8,7 +8,7 @@ Création et gestion de comptes utilisateurs
 
 Connexion / déconnexion sécurisée
 
-Création de serveurs, salons (textuels)
+Création de serveurs
 
 Envoi et réception de messages en temps réel
 
@@ -23,6 +23,6 @@ Langage : C
 
 Interface graphique : GTK4
 
-Base de données : SQLite / MySQL 
+Base de données : MySQL 
 
 Sockets TCP/IP : pour la communication client-serveur
