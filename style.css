@@ -1,0 +1,79 @@
+/* Général */
+window {
+    background-color: #313338;
+    color: #fff;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Sidebar gauche */
+.sidebar {
+    background-color: #1e1f22;
+    padding: 10px;
+}
+
+/* Nav centrale gauche */
+.navbar {
+    background-color: #2b2d31;
+    padding: 10px;
+}
+
+/* Contenu principal */
+.main-content {
+    background-color: #313338;
+    padding: 20px;
+}
+
+/* Entrée utilisateur */
+.entry {
+    background-color: #1e1f22;
+    color: #fff;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+/* Bouton principal */
+.button {
+    background-color: #5865f2;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Panneau de droite */
+.right-panel {
+    background-color: #1e1f22;
+    padding: 20px;
+    margin-left: 4px;
+}
+
+/* Avatar */
+.avatar {
+    border-radius: 50%;
+    border: 2px solid #444;
+    margin-right: 8px;
+}
+
+/* Nom de l'utilisateur */
+.user {
+    /* L'alignement centré sera fait dans le code C avec gtk-align */
+}
+
+/* Statuts */
+.online {
+    color: #43b581;
+}
+
+.idle {
+    color: #faa61a;
+}
+
+.dnd {
+    color: #f04747;
+}
+
+/* Titre */
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
