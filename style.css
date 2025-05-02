@@ -1,0 +1,82 @@
+* {
+    font-family: "Segoe UI", "Ubuntu", sans-serif;
+}
+
+window {
+    background-color: #2c2f33;
+    color: white;
+}
+
+/* Champ de texte */
+entry {
+    background-color: #23272a;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Libellés par défaut : messages du chat */
+label {
+    color: #000000;
+    font-size: 14px;
+}
+
+/* Libellé des serveurs et des canaux */
+.sidebar label {
+    color: #ffaa00; /* orange pour les titres de sections */
+    font-weight: bold;
+}
+
+/* Boutons serveurs et canaux */
+button {
+    background-color: #7289da;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5b6eae;
+}
+
+/* Boutons ronds pour amis et serveurs */
+.round-server, .round-friend {
+    border-radius: 9999px;
+    min-width: 50px;
+    min-height: 50px;
+    padding: 0;
+    margin: 5px;
+}
+
+.round-server image,
+.round-friend image {
+    border-radius: 9999px;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+/* Ajustements pour les messages et conteneurs */
+.chat-message {
+    background-color: #40444b;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px 0;
+}
+
+.chat-message.mine {
+    background-color: #7289da;
+    /* Ajuster l'alignement via le code C plutôt que le CSS */
+}
+
+/* Barres latérales et conteneurs */
+.sidebar {
+    padding: 10px;
+}
+
+.sidebar label,
+.sidebar button {
+    /* Le CSS ici ne définit plus la largeur */
+    margin-bottom: 10px;
+}
